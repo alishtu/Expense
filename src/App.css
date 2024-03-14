@@ -1,0 +1,70 @@
+/* App.css */
+
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Стили для списка расходов */
+.expenses-list {
+  margin-bottom: 20px;
+}
+
+.expenses-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expenses-list li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+/* Стили для формы добавления расходов */
+.add-expense-form {
+  margin-bottom: 20px;
+}
+
+.add-expense-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-expense-form input[type="text"],
+.add-expense-form input[type="number"],
+.add-expense-form input[type="date"],
+.add-expense-form button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-expense-form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-expense-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для общей суммы расходов */
+.total-expenses {
+  font-size: 1.2em;
+  font-weight: bold;
+}
